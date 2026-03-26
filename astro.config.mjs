@@ -9,7 +9,7 @@ import yeskunallumami from '@yeskunall/astro-umami'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://ctros.aglabs.id',
+	site: 'https://adriancc-eng.github.io',
 	experimental: {
 		fonts: [
 			{
