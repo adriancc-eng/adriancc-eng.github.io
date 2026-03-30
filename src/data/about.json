@@ -1,44 +1,40 @@
 [
 	{
 		"id": "main",
-		"avatar": "./avatar.png",
+		"avatar": "./avatar2.png",
 		"name": "Adrian Ceballos",
 		"username": "adriancc-eng",
 		"headline": "Motorsport Engineer",
 		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis scelerisque leo. Sed pulvinar ligula eu enim venenatis tincidunt.",
-		"bio": "Passionate software developer with a knack for creating efficient and scalable web applications. Experienced in both frontend and backend development, always eager to learn new technologies and improve coding skills.",
+		"bio": "Motorsport Engineer who enjoys tackling challenges with a hands-on approach. Experienced in Aerodynamics and Trackside Activities, supporting teams competing in IMSA, EUROCUP3 and off-road events like the Baja 1000 race.",
 		"description": [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis scelerisque leo. Sed pulvinar ligula eu enim venenatis tincidunt. Fusce elementum et urna dictum viverra. Phasellus quis lectus vel sem pellentesque tincidunt id ut elit. Nullam convallis eu ex sed auctor. Ut laoreet fermentum velit, vitae imperdiet nunc. Donec vestibulum magna non auctor porta. Phasellus nibh eros, laoreet quis efficitur vulputate, dapibus at lectus. Integer at tellus ullamcorper, elementum urna eget, suscipit dui. Suspendisse id elit nulla. Integer arcu lorem, varius in tellus eu, ullamcorper ultrices ligula. Duis tristique odio eu metus interdum maximus. Aliquam eget elit tortor. Phasellus a fermentum massa.",
 			"Quisque commodo orci in quam viverra sagittis. Praesent mollis augue nec urna molestie ullamcorper. Integer elementum dui ut ex euismod, in viverra turpis mollis. Ut sed libero a urna imperdiet viverra. Donec ut erat eu nisi luctus vestibulum eget non elit. Donec at gravida odio. Praesent accumsan dictum erat, sed molestie lacus vulputate at. Mauris porttitor neque lorem, vitae cursus turpis aliquam vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris blandit arcu euismod ipsum vestibulum, sed consectetur justo pulvinar."
 		],
 		"skills": [
 			{
-				"name": "Languages",
-				"items": ["JavaScript", "TypeScript", "Python", "Go", "HTML"]
+				"name": "Data Analysis",
+				"items": ["MATLAB", "Python", "Excel", "Scilab"]
 			},
 			{
-				"name": "Frontend",
-				"items": ["React", "Vue", "Astro"]
+				"name": "Race Engineering",
+				"items": ["Pi Toolbox", "MoTeC i2", "RaceStudio 3", "AVL VSM RACE", "AVL DRIVE RACE"]
 			},
 			{
-				"name": "Backend",
-				"items": ["Node.js", "Express", "Django", "Flask"]
+				"name": "CAD/Simulations",
+				"items": ["Siemens NX", "CATIA3DX", "SOLIDWORKS", "StarCCM+", "Simscale", "COMSOL"]
 			}
 		],
 		"social": {
-			"description": "You can react me out via email at: <a href='mailto:hi@aglabs.id'>hi@aglabs.id</a> or via socials below:",
+			"description": "You can reach me out via email at: <a href='mailto:adrianceballos47@gmail.com'>adrianceballos47@gmail.com</a> or via socials below:",
 			"links": [
 				{
 					"name": "GitHub",
-					"url": "https://github.com/aglabsid"
+					"url": "https://github.com/adriancc-eng"
 				},
 				{
 					"name": "LinkedIn",
-					"url": "https://linkedin.com/company/aglabsid"
-				},
-				{
-					"name": "Twitter",
-					"url": "https://twitter.com/hendraaagil"
+					"url": "https://linkedin.com/in/adriancc04"
 				}
 			]
 		}
