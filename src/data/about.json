@@ -5,11 +5,14 @@
 		"name": "Adrian Ceballos",
 		"username": "adriancc-eng",
 		"headline": "Motorsport Engineer",
-		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis scelerisque leo. Sed pulvinar ligula eu enim venenatis tincidunt.",
-		"bio": "Motorsport Engineer who enjoys tackling challenges with a hands-on approach. Experienced in Aerodynamics and Trackside Activities, supporting teams competing in IMSA, EUROCUP3 and off-road events like the Baja 1000 race.",
+		"summary": "Motorsport Engineer with experience in Aerodynamic development and a strong focus on Trackside support as a Data/Performance Engineer.",
+		"bio": "Motorsport Engineer who enjoys new tackling challenges with a hands-on approach. Experienced in Aerodynamics and Trackside Activities, supporting teams competing in IMSA, EUROCUP3 and in off-road events like the Baja 1000 race.",
 		"description": [
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis scelerisque leo. Sed pulvinar ligula eu enim venenatis tincidunt. Fusce elementum et urna dictum viverra. Phasellus quis lectus vel sem pellentesque tincidunt id ut elit. Nullam convallis eu ex sed auctor. Ut laoreet fermentum velit, vitae imperdiet nunc. Donec vestibulum magna non auctor porta. Phasellus nibh eros, laoreet quis efficitur vulputate, dapibus at lectus. Integer at tellus ullamcorper, elementum urna eget, suscipit dui. Suspendisse id elit nulla. Integer arcu lorem, varius in tellus eu, ullamcorper ultrices ligula. Duis tristique odio eu metus interdum maximus. Aliquam eget elit tortor. Phasellus a fermentum massa.",
-			"Quisque commodo orci in quam viverra sagittis. Praesent mollis augue nec urna molestie ullamcorper. Integer elementum dui ut ex euismod, in viverra turpis mollis. Ut sed libero a urna imperdiet viverra. Donec ut erat eu nisi luctus vestibulum eget non elit. Donec at gravida odio. Praesent accumsan dictum erat, sed molestie lacus vulputate at. Mauris porttitor neque lorem, vitae cursus turpis aliquam vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris blandit arcu euismod ipsum vestibulum, sed consectetur justo pulvinar."
+			"I am a curious engineer who is constantly exploring for new project ideas to implement. I enjoy working with challenging tasks and applying my skills on a wide variety of topics to develop innovative solutions. From CAD modelling to evaluation of physical phenomena with CFD simulations and data analysis, I can confidently manage and optimise processes of Motorsport projects.",
+
+			"In previous roles I led the engineering department of a plastic injection consultancy company, performed set-up changes for off-road cars, directed wind tunnel tests and optimised designs in Formula Student and the EUROCUP3 championship. Most recently, I produced the aero maps of an Audi RS3 LMS using iRacing data to propose a real testing methodology for an IMSA team.",
+
+			"My academic background consists of a BSc in Mechanical Engineering from ITESO University in Mexico and an MSc in Motorsport Engineering from Oxford Brookes University. Additionally, I am certified in Trackside Aerodynamics and Aerodynamic Design with CATIA3DX by the Motorsport Engineer Network. I am comfortable implementing Machine Learning methods after completing an online Python for Data Science certification."
 		],
 		"skills": [
 			{
