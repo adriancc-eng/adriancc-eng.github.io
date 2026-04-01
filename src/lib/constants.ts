@@ -10,15 +10,15 @@ export const navigations = [
 		isExact: false,
 	},
 	{
-		title: 'Blog',
-		href: '/blog',
+		title: 'Projects',
+		href: '/projects',
 		isExact: false,
-	},
-	{
+	}, 
+	/* {
 		title: 'Works',
 		href: '/works',
 		isExact: false,
-	},
+	}, */
 	/* {
 		title: 'Equipments',
 		href: '/equipments',
