@@ -19,9 +19,9 @@ export const navigations = [
 		href: '/works',
 		isExact: false,
 	},
-	{
+	/* {
 		title: 'Equipments',
 		href: '/equipments',
 		isExact: false,
-	},
+	}, */
 ]

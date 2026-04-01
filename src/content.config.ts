@@ -1,7 +1,7 @@
 import { defineCollection, reference, z } from 'astro:content'
 import { file, glob } from 'astro/loaders'
 
-const software = defineCollection({
+/* const software = defineCollection({
 	loader: file('src/data/software.json'),
 	schema: z.object({
 		name: z.string(),
@@ -12,9 +12,9 @@ const software = defineCollection({
 			}),
 		),
 	}),
-})
+}) */
 
-const hardware = defineCollection({
+/*const hardware = defineCollection({
 	loader: file('src/data/hardware.json'),
 	schema: z.object({
 		name: z.string(),
@@ -25,7 +25,7 @@ const hardware = defineCollection({
 			}),
 		),
 	}),
-})
+}) */
 
 const about = defineCollection({
 	loader: file('src/data/about.json'),
@@ -94,8 +94,8 @@ const post = defineCollection({
 })
 
 export const collections = {
-	software,
-	hardware,
+	// software,
+	// hardware,
 	about,
 	projectCategory,
 	project,
