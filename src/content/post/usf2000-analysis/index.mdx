@@ -1,40 +1,83 @@
 ---
 language: en
-title: TypeScript Best Practices in 2024
-thumbnail: ./thumbnail.png
-thumbnailCredit: Photo by TypeScript Blog
-summary: Essential TypeScript patterns and practices for modern development
+title: USF-22 Aerodynamic Performance Comparison
+thumbnail: ./post3-thumbnail.png
+thumbnailCredit: "Testing completed in the Gilles Villeneuve circuit with an USF-22 car."
+summary: Data analysis on the performance of three aero set-ups with MoTeC i2 
 tags:
-  - typescript
-  - javascript
-  - programming
-author: Your Name
-createdAt: 2024-04-05T16:45:00+07:00
-updatedAt: 2024-04-05T17:20:00+07:00
+  - data analysis
+  - aerodynamics
+author: Adrian Ceballos
+createdAt: 2026-02-28T16:45:00+07:00
+updatedAt: 2024-02-28T17:20:00+07:00
 ---
 
-# TypeScript Best Practices in 2024
+## Objective
 
-TypeScript has become the standard for large-scale JavaScript applications.
+Assess drag, aerodynamic balance and total, front and rear downforce on each of the 3 different set-ups to identify their contribution to lap time improvements and the overall performance of the car.  
 
-## Type Safety Tips
+---
 
-### Use Strict Mode
+## Assumptions
 
-Always enable strict mode in your tsconfig.json:
+* Runs performed with the same car and driver
+* Only aerodynamic set-up has changed between runs
+* No suspension set-up changes or any other chassis related changes have been made
+* Starting fuel load and tyres are identical for each run 
 
-```json
-{
-	"compilerOptions": {
-		"strict": true
-	}
-}
-```
+---
 
-### Prefer Interfaces for Objects
+## Set-Up Test Plan
 
-Use interfaces for object shapes and types for unions and primitives.
+Each of the three different aero set-ups (Run Romeo, Run Sierra and Run Tango) consists of 1 out-lap, 2 performance laps, and 1 in-lap.
 
-### Avoid `any`
+| Run Romeo   | Run Sierra  | Run Tango  |
+| ----------  | ----------- | ---------- |
+| Out-lap     | Out-lap     | Out-lap    |
+| Lap 1       | Lap 1       | Lap 1      |
+| Lap 2       | Lap 2       | Lap 2      |
+| In-lap      | In-lap      | In-lap     |
 
-The `any` type defeats the purpose of TypeScript. Use `unknown` instead when needed.
+---
+
+## Workflow & Summary 
+
+The data is analysed with multiple telemetry channels which are chosen depending on the aerodynamic parameter, as indicated below:
+
+* Drag: 
+  * Time gains when braking or accelerating (particularly after long straights) with a **lap time variance curve**.
+  * Maximum speeds and acceleration trends with the **vehicle speed** channel.
+  * **Brake pedal application** to correlate the effect of drag induced losses on driveability.
+
+* Downforce:
+  * Response of the aerodynamic load when accelerating, cornering and braking with the **front and rear ride heights**.
+  * Changes in cornering capabilities with the lateral and **longitudinal acceleration** channels.
+  * Quantitative analysis using the **suspension load** data. 
+
+* Aero balance:
+  * Correlation of the **suspension load, ride height and acceleration** channels.
+
+  ![](./post3-workflow.png)
+
+---
+
+## Results
+
+For further detail about the analysis refer to the final report [here](https://github.com/adriancc-eng/motorsport-repo/blob/32cc1b8c9b807d3a66e20aa91746f2d83420411a/ACC%20USF2000%20Data%20Analysis.pdf) or on my GitHub repository.
+
+An initial assessment can be made by plotting a time variance curve. This simple, but insightful tool in MoTeC i2, lays out a general representation of the time reductions on the straights and performance variations during heavy braking in this analysis.
+
+![](./post3-results1.png)
+
+In the next example the front and rear ride heights of the three set-ups are compared (1 & 2). As seen in the map diagram at the left and in the upper two channels, this is done at a high-speed condition where aerodynamic loads become relevant.
+
+![](./post3-results2.png)
+
+The scatter plot in the top left corner shows the changes in front and rear ride heights when braking. Correlating the fastest set-up (Run Tango) with the time variance curve, demonstrates the importance of a low downforce (less drag consequently) in this circuit.
+
+
+
+
+
+
+
